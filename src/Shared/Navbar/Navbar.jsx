@@ -14,6 +14,8 @@ const Navbar = () => {
                             <Link>Home</Link>
                             <Link to={'/contract'} className="m-3 font-bold">Contract US</Link>
                             <Link to={'/ourmenu'} className="m-3 font-bold">Our Menu</Link>
+                            <Link to={'/ordershop'} className="m-3 font-bold">Order Shop</Link>
+                            <Link to={'/login'} className="m-3 font-bold">Login</Link>
                         </ul>
                     </div>
                     <a className="btn btn-ghost normal-case text-xl h-20">Bistro Boss <br /> Restaurant</a>
@@ -23,6 +25,8 @@ const Navbar = () => {
                         <Link to={'/'} className="m-3 font-bold">Home</Link>
                         <Link to={'/contract'} className="m-3 font-bold">Contract US</Link>
                         <Link to={'/ourmenu'} className="m-3 font-bold">Our Menu</Link>
+                        <Link to={'/ordershop'} className="m-3 font-bold">Order Shop</Link>
+                        <Link to={'/login'} className="m-3 font-bold">Login</Link>
                     </ul>
                 </div>
                 <div className="navbar-end">

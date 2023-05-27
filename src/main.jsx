@@ -10,6 +10,8 @@ import Home from "./Pages/Home/Home/Home";
 import Contract from "./Pages/Contract/Contract";
 import OurMenu from "./Pages/OurMenu/OurMenu";
 import {  HelmetProvider } from 'react-helmet-async';
+import Order from "./Pages/Order/Order/Order";
+import Login from "./Pages/Login/Login";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +29,15 @@ const router = createBrowserRouter([
       {
         path: '/ourmenu',
         element: <OurMenu></OurMenu>,
-      }
+      },
+      {
+        path: '/ordershop',
+        element: <Order></Order>
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
+      },
     ]
   },
 ]);
